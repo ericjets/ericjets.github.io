@@ -96,6 +96,17 @@ footer {
     }
 }
 
+@media screen and (min-width: 0px) and (max-width: 992px) {
+    #contactLinks {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid white;
+    }
+    .addLeftBorder, .addRightBorder {
+        border: none;
+    }
+}
+
 
 
 
