@@ -1,0 +1,110 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#headerContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+#contactContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.socialMediaLink {
+  text-decoration: none;
+  color: white;
+}
+
+.addLeftBorder {
+  border-left: 1px solid white;
+}
+
+.addRightBorder {
+  border-right: 1px solid white;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon img {
+  max-height: 25px;
+  max-width: 25px;
+}
+
+.customInput {
+  background-color: black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 100%;
+}
+
+.formInputHeader {
+  font-size: 12px;
+}
+
+.inputField {
+  margin: 10px 0px;
+}
+
+form input:focus {
+  outline: none;
+  color: white;
+}
+
+#submitButton {
+  width: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: none;
+  background-color: white;
+  font-size: .75em;
+}
+
+#pageContainer {
+  position: relative;
+  min-height: 100vh;
+}
+
+#contentWrap {
+  padding-bottom: 2.5rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=contactStyle.css.map */
