@@ -17,6 +17,12 @@ h1 {
     background-color: black !important;
 }
 
+.carouselImage {
+    height: 40vh; 
+}
+
+
+
 .welcomeContainer {
     background-color: black;
     height: 325px;
@@ -70,6 +76,10 @@ h1 {
     .imageContainer {
         display: none;
     }
+
+    .carouselImage {
+        height: 30vh;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -79,6 +89,10 @@ h1 {
 
     .imageContainer {
         display: none;
+    }
+
+    .carouselImage {
+        height: 25vh;
     }
 }
 
