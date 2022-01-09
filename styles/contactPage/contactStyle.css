@@ -73,6 +73,10 @@ body {
   margin: 10px 0px;
 }
 
+form input {
+  color: white;
+}
+
 form input:focus {
   outline: none;
   color: white;
