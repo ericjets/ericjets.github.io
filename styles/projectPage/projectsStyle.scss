@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+
+.projectHeader {
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+.githubLink {
+     max-height: 40px;
+}
+
+.projectCard {
+    max-height: 240px;
+    border: 2px solid black;
+}
+
+.projectLinks {
+    //position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.projectText {
+    margin-top: 20px;
+    text-align: center;
+
+    p {
+        margin-bottom: .5rem;
+    }
+}
+
+.projectDescription {
+    font-size: 14px;
+}
+
+.projectTech {
+    font-size: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pageContainer {
+    position: relative;
+    min-height: 100vh;
+}
+
+.contentWrap {
+    padding-bottom: 2.5rem;
+}
+
+.iconref {
+    color: white;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 386px) and (max-width: 768px) {
+    .projectHeader {
+        margin-top: 100px;
+        margin-bottom: 10px; 
+    }
+}
+
+@media screen and (min-width: 221px) and (max-width: 386px) {
+    .projectHeader {
+        margin-top: 200px;
+        margin-bottom: 10px; 
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 221px) {
+    .projectHeader {
+        margin-top: 300px;
+        margin-bottom: 10px; 
+    }
+}
